@@ -4,9 +4,9 @@ import java.util.Locale;
 
 public class Lang {
 
-    private String name;  //название языка(то как он написан в списке)
-    private Locale locale;//сам язык
-    private int index;    //номер(позиция) языка в выпадающем списке
+    private String name;
+    private Locale locale;
+    private int index;
 
     public Lang(int index, String name, Locale locale)
     {
